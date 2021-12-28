@@ -43,6 +43,7 @@
           v-text="example.text"
         />
       </v-card>
+      <v-divider />
       <list-metadata :metadata="example.meta" />
     </template>
   </layout-text>
