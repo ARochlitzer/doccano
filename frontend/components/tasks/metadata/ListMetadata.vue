@@ -10,7 +10,7 @@
   >
     <template #[`item.value`]="{ item }">
       <template v-if="item.key.indexOf('im_url') > -1">
-        <a :href="item.value" target="_blank"><img :src="item.value" style="height: 100%" /></a>
+        <a :href="item.value" target="_blank"><img :src="item.value" /></a>
       </template>
       <template v-else-if="item.key.indexOf('url') > -1">
         <a :href="item.value" target="_blank">{{ item.value }}</a>
