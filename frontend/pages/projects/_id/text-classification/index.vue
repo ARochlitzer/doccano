@@ -43,8 +43,6 @@
           v-text="example.text"
         />
       </v-card>
-    </template>
-    <template #sidebar>
       <list-metadata :metadata="example.meta" />
     </template>
   </layout-text>
