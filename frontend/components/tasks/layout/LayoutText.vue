@@ -5,9 +5,6 @@
       <v-col cols="12" md="11">
         <slot name="content" />
       </v-col>
-      <v-col cols="12" md="1">
-        <slot name="sidebar" />
-      </v-col>
     </v-row>
   </v-container>
 </template>
